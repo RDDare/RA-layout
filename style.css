@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: normal;
     src: url(./fonts/Roboto-Regular.ttf)
 }
 
 @font-face {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-weight: 500;
     src: url(./fonts/Roboto-Medium.ttf)
 }
@@ -13,7 +13,7 @@
 body {
     font-size: 16px;
     color: #727272;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 26px;
 }
 
