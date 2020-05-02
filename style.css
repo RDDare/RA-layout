@@ -15,6 +15,7 @@ body {
     color: #727272;
     font-family: "Roboto", sans-serif;
     line-height: 26px;
+    background-color: #f9f9f9;
 }
 
 .btn {
@@ -45,7 +46,8 @@ body {
 }
 
 .container {
-    width: 1100px;
+    width: 1130px;
+    padding: 0px 15px;
     margin: auto;
 }
 
@@ -94,7 +96,14 @@ h1 {
     color: #000;
     font-size: 48px;
     font-weight: 500;
-    margin: 0 0 60px 0;
+    margin: 0 0 55px 0;
+    line-height: 3.5rem;
+}
+
+h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 .first-screen__column p {
@@ -104,4 +113,96 @@ h1 {
 .first-screen__image {
     display: block;
     margin: auto;
+}
+
+.about-me {
+    padding: 120px 0px 90px;
+    display: flex;
+}
+
+.about-me__body {
+    margin: auto;
+    max-width: 540px;
+    text-align: center;
+}
+
+.about-me h2 {
+    margin: 0px 0px 45px 0px;
+}
+
+.about-me p {
+    max-width: 540px;
+    margin: unset;
+}
+
+.numbers {
+    padding: 90px 0px;
+    background-color: #34547A;
+    display: flex;
+}
+
+.numbers__body {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.numbers__column {
+    display: flex;
+    margin: 10px 0px;
+    height: 50px;
+}
+
+.numbers__column--description {
+    margin: 0px 0px 0px 20px;
+    color: #fff;
+}
+
+.numbers__column--description p.amount {
+    margin: 0px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.numbers__column--description p.description {
+    margin: 0px;
+}
+
+.skills {
+    display: flex;
+    padding: 100px 0px;
+}
+
+.skills__body {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.skills__description {
+    margin-right: 30%;
+}
+
+.skills__column {
+    margin: auto 0px;
+    width: 50%;
+}
+
+.skills__column img {
+    max-width: 100%;
+}
+
+.skills__description--header {
+    margin-bottom: 50px;
+}
+
+.indicator {
+    height: 4px;
+    background-color: #C4C4C4;
+}
+
+.indicator span {
+  display: block;
+  height: 100%;
+  background-color: #34547A;
 }
