@@ -18,6 +18,10 @@ body {
     background-color: #f9f9f9;
 }
 
+img {
+    max-width: 100%;
+}
+
 .btn {
     border: none;
     background: #34547A;
@@ -46,7 +50,7 @@ body {
 }
 
 .container {
-    width: 1130px;
+    max-width: 1100px;
     padding: 0px 15px;
     margin: auto;
 }
@@ -104,6 +108,7 @@ h2 {
     color: #000;
     font-size: 32px;
     font-weight: 500;
+    margin: 0px 0px 50px 0px;
 }
 
 .first-screen__column p {
@@ -188,10 +193,6 @@ h2 {
     width: 50%;
 }
 
-.skills__column img {
-    max-width: 100%;
-}
-
 .skills__description--header {
     margin-bottom: 50px;
 }
@@ -205,4 +206,56 @@ h2 {
   display: block;
   height: 100%;
   background-color: #34547A;
+}
+
+.workflow {
+    display: flex;
+    background-color: #EEEFF1;
+    padding: 100px 0px;
+}
+
+.workflow__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.workflow__description {
+    max-width: 540px;
+    margin: 0px 0px 55px 0px;
+}
+
+.video {
+    position: relative;
+}
+
+.video:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 35%;
+}
+
+.play-button {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+}
+
+
+.video img {
+    display: block;
 }
