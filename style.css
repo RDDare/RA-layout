@@ -184,13 +184,14 @@ h2 {
     justify-content: space-between;
 }
 
-.skills__description {
-    margin-right: 30%;
-}
-
 .skills__column {
     margin: auto 0px;
     width: 50%;
+}
+
+.skills__column--description {
+    width: 30%;
+    margin-right: 20%;
 }
 
 .skills__description--header {
@@ -246,6 +247,7 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .video button {
@@ -257,5 +259,38 @@ h2 {
 
 
 .video img {
+    display: block;
+}
+
+.projects {
+    display: flex;
+}
+
+.projects__body {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.projects__body--image {
+    max-width: 480px;
+    max-height: 480px;
+}
+
+.projects__body--image:hover:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 480px;
+    height: 480px;
+    background-color: #34547A;
+    opacity: 80%;
+    cursor: pointer;
+
+}
+
+.projects__body--image img{
     display: block;
 }
